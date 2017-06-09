@@ -1,11 +1,25 @@
 #pragma rtGlobals=1		// Use modern global access method.
-#pragma version = 1.04	//by Y. Takeuchi 140605 tSort_Beta
-#pragma IgorVersion = 6.0	//Igor Pro 6.0 or later
+#pragma version = 1.0.0	
+#pragma IgorVersion = 6.1	//Igor Pro 6.1 or later
 #include <XYZToTripletToXYZ>
-/////////////////////////////////////////////////////////////////////////////////////
-//This procedure needs "Global_Procedure.ipf" descripted by Yuichi Takeuchi
-// and SetWindowExt.XOP from http://fermi.uchicago.edu/freeware/LoomisWood/SetWindowExt.shtml
-/////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// This procedure (tSort) offers an analytical environment for extracellular unit recordings.
+// Latest version is available at Github (https://github.com/yuichi-takeuchi/tSort).
+//
+// Prerequisites:
+//* Igor Pro 6.1 or later
+//* tUtility (https://github.com/yuichi-takeuchi/tUtility)
+//* SetWindowExt.XOP (http://fermi.uchicago.edu/freeware/LoomisWood/SetWindowExt.shtml)
+//
+// Author:
+// Yuichi Takeuchi PhD
+// Department of Physiology, University of Szeged, Hungary
+// Email: yuichi-takeuchi@umin.net
+// 
+// Lisence:
+// MIT License
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Menu "tSort"
 	SubMenu "Misc"
