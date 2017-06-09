@@ -32,7 +32,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 1. 
 
 #### Making outputs
-* 
+* Gizmo
 
 ### Help
 * Click "Help" in "tSort" menu.
