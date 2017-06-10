@@ -71,6 +71,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 * Click "Help" in "tSort" menu.
 
 ## DOI
+[![DOI](https://zenodo.org/badge/93521987.svg)](https://zenodo.org/badge/latestdoi/93521987)
 
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning.
