@@ -281,7 +281,7 @@ Function  tSort_HelpNote(ctrlName) : ButtonControl
 	strhelp += "0. Click tSortInitialize						(Menu -> tSort -> Initialize -> tSortInitialize)"+"\r"
 	strhelp += "1. Get WaveList				 			(Main Panel -> Main -> GetAll (Spike, LFP, ECoG, EMG, Marker Waves))"+"\r"
 	strhelp += "2. Set Extract Parameters		 			(Main Panel -> Extract -> Spike Detection"+"\r"
-	strhelp += "3. Set sourse wave					 	(Main Panel -> Main -> srcWave button)"+"\r"
+	strhelp += "3. Set source wave					 	(Main Panel -> Main -> srcWave button)"+"\r"
 	strhelp += "4. Preparations							(Main Panel -> Main -> MTablePrep, DisplayInit)"+"\r"
 	strhelp += "5. Spike Detection						(Main Panel -> AutoSearch button)"+"\r"
 	strhelp += "6. Calculate parameters					(Main Panel -> EachParam button)"+"\r"
