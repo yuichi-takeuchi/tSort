@@ -1,5 +1,5 @@
 # tSort
-An Igor Pro GUI which offers a spike sorting environment for extracellular unit recordings with microelectrodes.
+An Igor Pro GUI which offers a spike sorting environment for extracellular recordings with microelectrodes.
 
 ## Getting Started
 
@@ -76,6 +76,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 We use [SemVer](http://semver.org/) for versioning.
 
 ## Releases
+* Version 1.0.0, 2017/06/10
 * Prerelease, 2017/06/06
 
 ## Authors
