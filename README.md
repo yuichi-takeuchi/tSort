@@ -27,7 +27,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 1. Get your waves into the List on "Main" tab of the main control panel using "GetAll" or "GetWL" buttons. The names of source waves on the list can directly be edited by cliking "EditList" button. Spike, LFP, ECoG, EMG, and Marker fields supporse to have high-pass filterd waves, low-pass filterd waves, LFP of another brain region, EMG, and TTL signal for stimulation. The list must have at least waves in the Spike field.
 2. Set parameters for spike detection in "Extract" tab of the main control panel.
 3. Set a source wave for analysis by clicking "srcWave" button on the Main tab of the main control panel.
-4. Make the master table and the main graph ready for spike detection by clicking "MTblaPrep" and then "DisplayInit" buttons on the Main tab.
+4. Make the master table and the main graph ready for spike detection by clicking "MTablePrep" and then "DisplayInit" buttons on the Main tab.
 5. Detect spikes on the source wave by clicking "AutoSearch" button on the Main tab.
 6. Calculate several parameters associated with spikes (interevent intervals etc.) by clicking "EachParam" button on the Main tab.
 7. Move on the next sweep (wave) by clicking "Next Sw" button on the panel of the main graph.
