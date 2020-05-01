@@ -4,7 +4,7 @@ An Igor Pro GUI which offers a spike sorting environment for extracellular recor
 ## Getting Started
 
 ### Prerequisites
-* IGOR Pro 6 (https://www.wavemetrics.com/)
+* Igor Pro 6 (https://www.wavemetrics.com/)
 * tUtility (https://github.com/yuichi-takeuchi/tUtility)
 * SetWindowExt.XOP (http://fermi.uchicago.edu/freeware/LoomisWood/SetWindowExt.shtml)
 
@@ -83,7 +83,7 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Authors
 * **Yuichi Takeuchi PhD** - *Initial work* - [GitHub](https://github.com/yuichi-takeuchi)
 * Affiliation: Department of Physiology, University of Szeged, Hungary
-* E-mail: yuichi-takeuchi@umin.net
+* E-mail: takeuchi.yuichi@med.u-szeged.hu
 
 ## License
 This project is licensed under the MIT License.
