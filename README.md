@@ -7,7 +7,7 @@ An Igor Pro GUI which offers a spike sorting environment for extracellular recor
 * Igor Pro 6 (https://www.wavemetrics.com/)
 * tUtility (https://github.com/yuichi-takeuchi/tUtility)
 * SetWindowExt.XOP (https://github.com/yuichi-takeuchi/SetWindowExt)
-*
+
 This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed to work in Igor Pro 6.1 or later.
 
 ### Installing
@@ -93,5 +93,5 @@ This project is licensed under the MIT License.
 ## References
 tSort has been used for the following works:
 
-- Takeuchi Y, Osaki H, Yagasaki Y, Katayama Y, Miyata M (2017) Afferent Fiber Remodeling in the Somatosensory Thalamus of Mice as a Neural Basis of Somatotopic Reorganization in the Brain and Ectopic Mechanical Hypersensitivity after Peripheral Sensory Nerve Injury. eNeuro 4:e0345-0316.
+- Takeuchi Y, Osaki H, Yagasaki Y, Katayama Y, Miyata M (2017) Afferent Fiber Remodeling in the Somatosensory Thalamus of Mice as a Neural Basis of Somatotopic Reorganization in the Brain and Ectopic Mechanical Hypersensitivity after Peripheral Sensory Nerve Injury. eNeuro 4: e0345-0316.
 - Nagumo Y, Ueta Y, Nakayama H, Osaki H, Takeuchi Y, Uesaka N, Kano M, Miyata M (2020) Tonic GABAergic inhibition is essential for nerve injury-induced afferent remodeling in the somatosensory thalamus and associated ectopic sensations. Cell Rep 31: 107797.
