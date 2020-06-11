@@ -6,8 +6,8 @@ An Igor Pro GUI which offers a spike sorting environment for extracellular recor
 ### Prerequisites
 * Igor Pro 6 (https://www.wavemetrics.com/)
 * tUtility (https://github.com/yuichi-takeuchi/tUtility)
-* SetWindowExt.XOP (http://fermi.uchicago.edu/freeware/LoomisWood/SetWindowExt.shtml)
-
+* SetWindowExt.XOP (https://github.com/yuichi-takeuchi/SetWindowExt)
+*
 This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed to work in Igor Pro 6.1 or later.
 
 ### Installing
@@ -22,7 +22,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 * Click "tSortInitialize" in "Initialize" submenu of "tSort" menu.
 * Main control panel (tSortMainControlPanel), main graph (tSortMainGraph), event graph (tSortEventGraph), master table (tSortMasterTable), and slave table (tSortSlabeTable) windows will appear.
 
-### How to use 
+### How to use
 #### Spike detection and sorting
 1. Get your waves into the List on "Main" tab of the main control panel using "GetAll" or "GetWL" buttons. The names of source waves on the list can directly be edited by cliking "EditList" button. Spike, LFP, ECoG, EMG, and Marker fields supporse to have high-pass filterd waves, low-pass filterd waves, LFP of another brain region, EMG, and TTL signal for stimulation. The list must have at least waves in the Spike field.
 2. Set parameters for spike detection in "Extract" tab of the main control panel.
@@ -81,9 +81,7 @@ We use [SemVer](http://semver.org/) for versioning.
 * Prerelease, 2017/06/06
 
 ## Authors
-* **Yuichi Takeuchi PhD** - *Initial work* - [GitHub](https://github.com/yuichi-takeuchi)
-* Affiliation: Department of Physiology, University of Szeged, Hungary
-* E-mail: takeuchi.yuichi@med.u-szeged.hu
+* **Yuichi Takeuchi, PhD** - *Initial work* - [GitHub](https://github.com/yuichi-takeuchi)
 
 ## License
 This project is licensed under the MIT License.
@@ -95,4 +93,5 @@ This project is licensed under the MIT License.
 ## References
 tSort has been used for the following works:
 
-* Takeuchi Y, Osaki H, Yagasaki Y, Katayama Y, Miyata M (2017) Afferent Fiber Remodeling in the Somatosensory Thalamus of Mice as a Neural Basis of Somatotopic Reorganization in the Brain and Ectopic Mechanical Hypersensitivity after Peripheral Sensory Nerve Injury. eNeuro 4:e0345-0316.
+- Takeuchi Y, Osaki H, Yagasaki Y, Katayama Y, Miyata M (2017) Afferent Fiber Remodeling in the Somatosensory Thalamus of Mice as a Neural Basis of Somatotopic Reorganization in the Brain and Ectopic Mechanical Hypersensitivity after Peripheral Sensory Nerve Injury. eNeuro 4:e0345-0316.
+- Nagumo Y, Ueta Y, Nakayama H, Osaki H, Takeuchi Y, Uesaka N, Kano M, Miyata M (2020) Tonic GABAergic inhibition is essential for nerve injury-induced afferent remodeling in the somatosensory thalamus and associated ectopic sensations. Cell Rep 31: 107797.
